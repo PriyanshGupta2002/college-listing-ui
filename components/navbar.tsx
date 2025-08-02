@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "./mode-toggle";
 const poppins = Poppins({
+  subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500"],
 });
 const Navbar = () => {
