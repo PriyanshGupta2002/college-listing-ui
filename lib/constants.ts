@@ -37,5 +37,3 @@ export const dropdownOptions = {
     { value: "-1", label: "Fees: High to Low" },
   ],
 };
-
-export const sortOptions = [];
